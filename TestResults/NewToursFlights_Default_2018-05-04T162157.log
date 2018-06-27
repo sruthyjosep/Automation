@@ -1,0 +1,203 @@
+﻿2018-05-04T16:21:57.4445812+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-05-04T16:21:57.5579258+12:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-05-04T16:21:57.5579258+12:00;VSTestExecutionThread;Info;SpecRun: running tests in c:\users\sjoseprasad\source\repos\NewToursFlights\NewToursFlights\bin\Debug\NewToursFlights.dll
+2018-05-04T16:21:57.5579258+12:00;VSTestExecutionThread;Info;Profile: Default
+2018-05-04T16:22:02.6853364+12:00;Thread#13;Info;Discovering target: Default
+2018-05-04T16:22:02.6853364+12:00;Thread#13;Info;Discovering tests from assembly: c:\users\sjoseprasad\source\repos\NewToursFlights\NewToursFlights\bin\Debug\NewToursFlights.dll
+Appdomain Disposed
+Test Suite Dump
+#0: NewToursFlights/Default - 
+#1: Default - 
+#2: NewToursFlights - 
+#3: NewToursFlights - 
+#5: Business class flight booking of a registered user of Newtours - TestAssembly:NewToursFlights/Feature:NewToursFlights/Scenario:Business+class+flight+booking+of+a+registered+user+of+Newtours
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for NewToursFlights, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sjoseprasad\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.1\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open Newtours website
+Thread#0:T:done: NewToursFlightsSteps.GivenIOpenNewtoursWebsite() (1.4s)
+Thread#0:B:And I enter the user
+Thread#0:T:done: NewToursFlightsSteps.GivenIEnterTheUser() (0.1s)
+Thread#0:B:And I enter the password
+Thread#0:T:done: NewToursFlightsSteps.GivenIEnterThePassword() (0.1s)
+Thread#0:B:And click the Signin button
+Thread#0:T:done: NewToursFlightsSteps.GivenClickTheSigninButton() (3.5s)
+Thread#0:B:Then I should be able to see the flight booking page
+Thread#0:T:done: NewToursFlightsSteps.ThenIShouldBeAbleToSeeTheFlightBookingPage() (0.1s)
+Thread#0:B:Given I select the trip type
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheTripType() (0.1s)
+Thread#0:B:And I select the number of passengers
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheNumberOfPassengers() (0.1s)
+Thread#0:B:And I select the depature location
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheDepatureLocation() (0.1s)
+Thread#0:B:And I select the date of depature
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheDateOfDepature() (0.2s)
+Thread#0:B:And I select the arrival location
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheArrivalLocation() (0.1s)
+Thread#0:B:And I select the return date
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheReturnDate() (0.1s)
+Thread#0:B:And I select the service class
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheServiceClass() (0.1s)
+Thread#0:B:And I select the airline
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheAirline() (0.1s)
+Thread#0:B:And I click continue
+Thread#0:T:done: NewToursFlightsSteps.GivenIClickContinue() (0.6s)
+Thread#0:B:Then I should see the time slots avaliable for the selected flight
+Thread#0:T:done: NewToursFlightsSteps.ThenIShouldSeeTheTimeSlotsAvaliableForTheSelectedFlight() (0.1s)
+Thread#0:B:Given I select the time of initial flight
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheTimeOfInitialFlight() (0.1s)
+Thread#0:B:And I select the time of return flight
+Thread#0:T:done: NewToursFlightsSteps.GivenISelectTheTimeOfReturnFlight() (0.1s)
+Thread#0:B:And I click continue in flight time
+Thread#0:T:done: NewToursFlightsSteps.GivenIClickContinueInFlightTime() (1.0s)
+Thread#0:B:Then I should see the payment details for the selected flight
+Thread#0:T:error:   Data mismatch
+Thread#0:T:  Expected string length 18 but was 16. Strings differ at index 10.
+Thread#0:T:  Expected: "London to New York"
+Thread#0:T:  But was:  "London to Zurich"
+Thread#0:T:  ---------------------^
+Thread#0:B:Given I enter the First Name of pass one
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Last nameof pass one
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the First name of pass two
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Last name of pass two
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the card type for payment
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the card numnber
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the expiry month
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the expiry day
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And to enter Billing address, I enter the address
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the city
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the province
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the country
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click secure purchase
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should get the booking confirmation
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 11.489058 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given I open Newtours website
+Thread#0:T:done: NewToursFlightsSteps.GivenIOpenNewtoursWebsite() (1.3s)
+Thread#0:B:And I enter the user
+Thread#0:T:done: NewToursFlightsSteps.GivenIEnterTheUser() (0.1s)
+Thread#0:B:And I enter the password
+Thread#0:T:done: NewToursFlightsSteps.GivenIEnterThePassword() (0.1s)
+Thread#0:B:And click the Signin button
+Thread#0:T:done: NewToursFlightsSteps.GivenClickTheSigninButton() (1.2s)
+Thread#0:B:Then I should be able to see the flight booking page
+Thread#0:T:error: chrome not reachable
+Thread#0:T:  (Session info: chrome=66.0.3359.117)
+Thread#0:T:  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (100)
+Thread#0:B:Given I select the trip type
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the number of passengers
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the depature location
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the date of depature
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the arrival location
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the return date
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the service class
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the airline
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click continue
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should see the time slots avaliable for the selected flight
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given I select the time of initial flight
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the time of return flight
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click continue in flight time
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should see the payment details for the selected flight
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Given I enter the First Name of pass one
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Last nameof pass one
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the First name of pass two
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Last name of pass two
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the card type for payment
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the card numnber
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the expiry month
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the expiry day
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And to enter Billing address, I enter the address
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the city
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the province
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the country
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click secure purchase
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should get the booking confirmation
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 9.5063331 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 6.9922987 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

@@ -1,0 +1,32 @@
+﻿[
+	{
+	"pass1fname":"Test",
+	"pass1lname":"NZ",
+	"pass2fname":"Test2",
+	"pass2lname":"NZ",
+	"cardtype":"Visa",
+	"cardnumber":"1111111111111111",
+	"expirymonth":"02",
+	"expiryyear":"2010",
+	"address":"Planit Software Testing, Level 11",
+	"city":"125 Queen Street",
+	"state":"Auckland",
+	"country":"NEW ZEALAND"
+
+	},
+	{
+	"pass1fname":"Test",
+	"pass1lname":"AU",
+	"pass2fname":"",
+	"pass2lname":"",
+	"cardtype":"Visa",
+	"cardnumber":"1111111111111112",
+	"expirymonth":"02",
+	"expiryyear":"2009",
+	"address":"Planit Software Testing, Level 11",
+	"city":"125 Queen Street",
+	"state":"Auckland",
+	"country":"NEW ZEALAND"
+
+	}
+]

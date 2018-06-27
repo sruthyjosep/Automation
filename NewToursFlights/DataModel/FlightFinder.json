@@ -1,0 +1,22 @@
+﻿[
+	{
+		 "noofpass":"2",
+		 "departingfrom":"London",
+		 "departuredateMonth":"5",
+		 "departuredateDay":"4",
+		 "arrivingto":"New York",
+		 "returndateMonth":"5",
+		 "returndateDay":"6",
+		 "airline":"Blue Skies Airlines"
+	},
+	{
+		 "noofpass":"1",
+		 "departingfrom":"Franfurt",
+		 "departuredateMonth":"5",
+		 "departuredateDay":"4",
+		 "arrivingto":"Zurich",
+		 "returndateMonth":"5",
+		 "returndateDay":"6",
+		 "airline":"Unified Airlines"
+	}
+]
